@@ -3,17 +3,9 @@ const express = require("express");
 const logger = require("morgan");
 const path = require("path");
 
-const db = require("../models");
-
 const PORT = process.env.PORT || 3000;
 
-mongoose.connect(
-    process.env.MONGODB_URI || "mongodb://localhost/workout", {
-    useNewUrlParser: true,
-    useFindAndModify: false,
-    useUnifiedTopology: true,
-    useCreateIndex: true
-});
+// const db = require("./models");
 
 const app = express();
 
@@ -24,19 +16,15 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-// app.post("/submit", ({body}, res) => {
-//     const user = new User(body);
-//     user.setFullName();
-//     user.lastUpdatedDate();
-  
-//     User.create(user)
-//       .then(dbUser => {
-//         res.json(dbUser);
-//       })
-//       .catch(err => {
-//         res.json(err);
-//       });
-//   });
+mongoose.connect(
+    process.env.MONGODB_URI || "mongodb://localhost/workout", {
+    useNewUrlParser: true,
+    useFindAndModify: false,
+    useUnifiedTopology: true,
+    useCreateIndex: true
+});
+
+// require("./routes/api-routes")(app);
 // require("./routes/html-routes")(app);
 
 app.listen(PORT, () => {
