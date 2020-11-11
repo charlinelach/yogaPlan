@@ -9,7 +9,7 @@ Deployment:
 <br>
 Repository: https://github.com/charlinelach/yogaPlan
 
-## Table of Contents
+# Table of Contents
 * [Usage](#usage)
 * [Installation](#installation)
 * [Credits & Thank You](#credits)
@@ -19,9 +19,13 @@ Repository: https://github.com/charlinelach/yogaPlan
 # Development
 
 ## Usage Instructions
-<!-- To utilize the application, the user would access the application via [Heroku](https://tranquil-lake-26395.herokuapp.com/) link.
-<br> -->
+To utilize the application, the user would access the application via [Heroku](https://tranquil-lake-26395.herokuapp.com/) link.
+<br>
 Users are able to utilize the application to track exercises, with name, type, weight, sets, reps, and duration - as well if it is cardio. There is also the functionality to add multiple workouts in one day.
+<br>
+<!-- * To add new exercises to a new workout plan: Click the Continue Workout button. Add the name, type, weight, sets, reps, and duration of exercise.
+* To add exercise to a premium workout plan: Click the New Workout button. Add the name, type, weight, sets, reps, and duration of exercise.
+* To view combined weight of multiple exercises (access the stats page): -->
 
 <!-- ![Screenshot](screenshot.png) -->
 
