@@ -10,11 +10,11 @@ const workoutSchema = new Schema({
         type: {
             type: String,
             trim: true,
-            required: 'exercise field cannot be blank.'
+            required: 'This is required.'
         },
         name: {
             type: String,
-            required: 'enter a name for exercise.'
+            required: 'This is required.'
         },
         duration: {
             type: Number
@@ -34,6 +34,11 @@ const workoutSchema = new Schema({
     }]
 })
 
+workoutSchema.virtual("totalDuration").get(function() {
+    return this.exercises.reduce((total, exercise) => {
+      return total + exercise.duration;
+    }, 0);
+  });
 
 const Workout = mongoose.model("Workout", workoutSchema);
 
