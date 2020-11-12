@@ -5,7 +5,7 @@ The purpose of this application/website is to provide a way to view, create, and
 
 **Created On**: `2020 November 11`
 <br>
-Deployment: 
+Deployment: https://pure-earth-56296.herokuapp.com/
 <br>
 Repository: https://github.com/charlinelach/yogaPlan
 
@@ -19,7 +19,7 @@ Repository: https://github.com/charlinelach/yogaPlan
 # Development
 
 ## Usage Instructions
-To utilize the application, the user would access the application via [Heroku](https://tranquil-lake-26395.herokuapp.com/) link.
+To utilize the application, the user would access the application via [Heroku](https://pure-earth-56296.herokuapp.com/) link.
 <br>
 Users are able to utilize the application to track exercises, with name, type, weight, sets, reps, and duration - as well if it is cardio. There is also the functionality to add multiple workouts in one day.
 <br>
