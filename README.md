@@ -23,11 +23,12 @@ To utilize the application, the user would access the application via [Heroku](h
 <br>
 Users are able to utilize the application to track exercises, with name, type, weight, sets, reps, and duration - as well if it is cardio. There is also the functionality to add multiple workouts in one day.
 <br>
-<!-- * To add new exercises to a new workout plan: Click the Continue Workout button. Add the name, type, weight, sets, reps, and duration of exercise.
+* To add new exercises to a new workout plan: Click the Continue Workout button. Add the name, type, weight, sets, reps, and duration of exercise.
 * To add exercise to a premium workout plan: Click the New Workout button. Add the name, type, weight, sets, reps, and duration of exercise.
-* To view combined weight of multiple exercises (access the stats page): -->
 
-<!-- ![Screenshot](screenshot.png) -->
+![Home Page](images/homepage.png)
+![Resistance Fields](images/resistance.png)
+![Cardio Fields](images/cardio.png)
 
 ## Installation
 N/A when on Heroku
@@ -36,7 +37,7 @@ N/A when on Heroku
 Shout out to the wonderful instructor, TAs, and classmates!
 
 ## Testing
-<!-- Testing was completed locally on Visual Studio with no successful outputs. -->
+N/A
 
 # License
 MIT License <br>
